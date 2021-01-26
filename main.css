@@ -1,5 +1,18 @@
-html, body {
+html {
   height: 100%;
+}
+
+body {
+  height: 100%;
+  color: #222;
+  background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+  color: #eee;
+  background: #121212;
+  }
 }
 
 .container {
