@@ -6,6 +6,7 @@ body {
   height: 100%;
   color: #222;
   background: #fff;
+  font-family: 'Press Start 2P', cursive;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,4 +21,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+h1:hover {
+  opacity: 0.5;
+  color: teal;
+  transition: all 0.25s linear;
 }
