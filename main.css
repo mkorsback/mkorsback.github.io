@@ -32,4 +32,5 @@ h1:hover {
   opacity: 0.5;
   color: teal;
   transition: all 0.25s linear;
+  transform: scale(1.3);
 }
